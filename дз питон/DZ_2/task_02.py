@@ -6,18 +6,23 @@
 #  4 4 -> 2 2
 #  5 6 -> 2 3
 
-s = 5
-p = 6
+s = int(input('введите сумму двух чисел: '))
+p = int(input('введите произведение двух чисел: '))
 
-# x = 2
-# y = 3
+x = 1
+y = 1
 
-# x = s - p/x 
-# x**2 = x*s - p
-# x**2 - x*s + p = 0
+sum = 0
+multy = 0
 
-# y = p / x
+# while (sum != s) and (multy != p):
+for x in range(s):
+    if (sum == s) and (multy == p): 
+            break
+    for y in range(p):
+        sum = x + y
+        multy = x * y
+        if (sum == s) and (multy == p): 
+            print(f' x = {x}, y = {y}')
+            break
 
-
-# x + y = s
-# x * y = p
