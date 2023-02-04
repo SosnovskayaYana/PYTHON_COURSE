@@ -24,4 +24,4 @@ for i in range(n):
     if a_list[i] == x:
         count += 1
 
-print(count)
+print(f'Число {x} встречается {count} раз(а)' )
