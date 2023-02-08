@@ -53,10 +53,11 @@
 # print(d)
 
 
+
 # .isdigit - метод проверяет есть ли ЧИСЛА в пользовательском вводе
-while True:
-    user_text = input('--> ')
-    if not user_text.isdigit(): # if not - возвращает Falce
-        print('игра окончена ')
-        break
-print('Спасибо за игру ')
+# while True:
+#     user_text = input('--> ')
+#     if not user_text.isdigit(): # if not - возвращает Falce
+#         print('игра окончена ')
+#         break
+# print('Спасибо за игру ')

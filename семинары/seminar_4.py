@@ -24,12 +24,16 @@
 # start_set = set(start_list)
 # uniq_list = list(start_set)
 # new_dict = dict()
+
 # for i in range(len(uniq_list)):
+
 #     for j in range(len(start_list)):
 #         if uniq_list[i] == start_list[j]:
 #             count += 1
+
 #     new_dict[uniq_list[i]] = count
 #     count = 0
+    
 # print(new_dict)
 
 
