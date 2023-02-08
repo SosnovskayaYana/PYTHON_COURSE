@@ -12,3 +12,24 @@
 # 4
 # 1 2 3 4
 # 9
+
+
+n = int(input('введите количество кустов: '))
+a = []
+
+for i in range(n):
+    elem = int(input('количество ягод: '))
+    a.append(elem)
+    
+print(a)
+
+result = 0
+max_result = 0
+i = 1
+
+for i in range(len(a) - 1):
+    if a[i] + a[i - 1] + a[i + 1] > max_result:
+        max_result = a[i] + a[i - 1] + a[i + 1]
+
+print(max_result)
+
