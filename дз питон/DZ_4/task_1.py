@@ -20,10 +20,8 @@ for i in range(m):
     elem = int(input('введите элемент: '))
     m_set.add(elem)
 
-
 # n_set = {2, 4, 6, 8, 12, 21, 11, 15, 15, 43, 10}
 # m_set = {3, 21, 43, 4, 2, 15, 18}
-
 
 print(f'N => {n_set}')
 print(f'M => {m_set}')
@@ -34,21 +32,7 @@ result_set = n_set.intersection(m_set)  # общие элементы множе
 num_list = list(result_set)  # преобразование в список
 # print(num_list)
 
-
 sort_num = 0
-
-# while sort_num < len(num_list) - 1:
-#     index = 0
-#     while (index < len(num_list) - 1 - sort_num):
-#         if num_list[index] > num_list[index + 1]:
-#             temp = num_list[index]
-#             num_list[index] = num_list[index + 1]
-#             num_list[index + 1] = temp
-#         else:
-#             index += 1
-    
-#     sort_num += 1
-
 
 for sort_num in range(len(num_list) - 1):
     index = 0
@@ -61,6 +45,4 @@ for sort_num in range(len(num_list) - 1):
         else:
             index += 1
     
-    
-
 print(num_list)
