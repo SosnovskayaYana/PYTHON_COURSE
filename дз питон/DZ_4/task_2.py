@@ -23,9 +23,7 @@ for i in range(n):
     
 print(a)
 
-result = 0
-max_result = 0
-i = 1
+max_result = a[-1] + a[0] + a[-2]    # максимальным ставим исключительный случай. когда i+1 выходит за рамки range
 
 for i in range(len(a) - 1):
     if a[i] + a[i - 1] + a[i + 1] > max_result:
