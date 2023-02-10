@@ -76,6 +76,17 @@
 
 
 
+#тайпхитинг
+# def replace_marks(marks_list: list) -> list:
+#     for i in range(len(marks_list)):
+#         if (marks_list[i] == 5) or (marks_list[i] == 4):
+#             marks_list[i] = 2
+#     return marks_list
+# marks = [4, 2, 2, 1, 5, 5]
+# print(replace_marks(marks))
+
+
+
 # Быстрая сортировка
 # def quicksort(array):
 #     if len(array) < 2:
@@ -114,7 +125,29 @@
 #             nums[k] = right[j]
 #             j += 1
 #             k += 1
-
 # list1 = [3, 6, 5, 1, 2, 3, 40, 49, 87, 32, 14]
 # merge_sort(list1)
 # print(list1)
+
+
+
+# пузырьковая сортировка
+# n_set = {2, 4, 6, 8, 12, 21, 11, 15, 15, 43, 10}
+# m_set = {3, 21, 43, 4, 2, 15, 18}
+# print(f'N => {n_set}')
+# print(f'M => {m_set}')
+# result_set = n_set.intersection(m_set)  # общие элементы множеств
+# # print(result_set)
+# num_list = list(result_set)  # преобразование в список
+# # print(num_list)
+# sort_num = 0
+# for sort_num in range(len(num_list) - 1):
+#     index = 0
+#     for index in range(len(num_list) - 1 - sort_num):
+#         if num_list[index] > num_list[index + 1]:
+#             temp = num_list[index]
+#             num_list[index] = num_list[index + 1]
+#             num_list[index + 1] = temp
+#         else:
+#             index += 1  
+# print(num_list)
