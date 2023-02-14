@@ -76,6 +76,10 @@
 
 
 
+# print(*result)    убирает лишние скобки
+
+
+
 #тайпхитинг
 # def replace_marks(marks_list: list) -> list:
 #     for i in range(len(marks_list)):
@@ -84,6 +88,32 @@
 #     return marks_list
 # marks = [4, 2, 2, 1, 5, 5]
 # print(replace_marks(marks))
+
+
+
+# создание списка
+# def list_init(el_count: int) -> list:
+#     result_list = []
+#     for i in range(el_count):
+#         num = int(input('num: '))
+#         result_list.append(num)
+#     return result_list
+
+
+
+
+# List Comprehension - for в одну строку - лист Комперхэйшн , 
+# создание списка
+
+# [int(input()) for i in range(5)]
+# res = [(int(input())**4) for i in range(3)]
+
+# n = 4
+# list_ = [1, 2, 5, 7, 2, 6]
+#         что сделать \ где взять \ при каком условии
+# new_list = [item for item in list_ if item > 3]
+# print(new_list)
+
 
 
 
