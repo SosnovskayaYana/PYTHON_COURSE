@@ -106,13 +106,20 @@
 # создание списка
 
 # [int(input()) for i in range(5)]
-# res = [(int(input())**4) for i in range(3)]
+# res = [(int(input())**2) for i in range(3)]
 
-# n = 4
 # list_ = [1, 2, 5, 7, 2, 6]
-#         что сделать \ где взять \ при каком условии
-# new_list = [item for item in list_ if item > 3]
+#         # что сделать \ где взять \ при каком условии
+# new_list = [item**2 for item in list_ if item > 3]   # возвели в 2-Ю степень если элемент больше 3
 # print(new_list)
+
+
+
+
+# # функции map и lambda
+# result = [1, 5, 7, 3, 7]
+# new_list_1 = list(map(lambda num: num*num, result))  # создали копию списка
+# print(new_list_1)
 
 
 
