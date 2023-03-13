@@ -10,12 +10,12 @@
 
 
 
-# result = [1, 5, 7, 3, 7]
-# new_list_1 = list(map(lambda num: num*num, result))
-# # что сделать где взять при каком условии  list conprehencion
-# new_list_2 = [item*item for item in result if item > 4]
-# print(new_list_1)
-# print(new_list_2)
+result = [1, 5, 7, 3, 7]
+new_list_1 = list(map(lambda num: num*num, result))
+# что сделать где взять при каком условии  list conprehencion
+new_list_2 = [item*item for item in result if item > 4]
+print(new_list_1)
+print(new_list_2)
 
 
 
@@ -82,14 +82,14 @@
 # same
       
 
-def same_by(characteristic, objects):
-    if objects:
-        return len(set(map(characteristic, objects))) == 1
-    return True
+# def same_by(characteristic, objects):
+#     if objects:
+#         return len(set(map(characteristic, objects))) == 1
+#     return True
 
-values = [0, 2, 10, 6]
+# values = [0, 2, 10, 6]
 
-if same_by(lambda x: x % 2, values):
-    print('same')
-else:
-    print('different')
+# if same_by(lambda x: x % 2, values):
+#     print('same')
+# else:
+#     print('different')

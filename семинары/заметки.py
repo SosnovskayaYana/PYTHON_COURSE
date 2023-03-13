@@ -137,6 +137,20 @@
 
 
 
+
+
+# # ф-я печати таблицы умножения до 6
+# def print_operation_table(operation, num_rows, num_columns):
+#     for i in range(1, num_rows + 1):
+#         result_list = []
+#         for j in range(1, num_columns + 1):
+#             result_list.append(operation(i, j))
+#         print(''.join(f'{e:<4}' for e in result_list))  # форматирование. вывод красивыми столбиками
+
+
+
+
+
 # Сортировка слиянием
 # def merge_sort(nums):
 #     if len(nums) > 1:
