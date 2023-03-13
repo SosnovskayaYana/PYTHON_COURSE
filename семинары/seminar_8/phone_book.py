@@ -38,16 +38,17 @@ def find_contact(contact):
             # else:
             #     print("Контакт не найден ")
 
-# find_contact(x)
+# find_contact('')
 
 
 def add_contact(contact):
     with open('семинары/seminar_8/numbers.txt', 'a', encoding='utf8') as data:
-        data.write('\n')
-        data.write(contact)
+        # data.write('\n')
+        # data.write(contact)
+        data.write('\n' + contact)
         print("Контакт сохранен")
 
-# add_contact()
+# add_contact('')
 
 
 
